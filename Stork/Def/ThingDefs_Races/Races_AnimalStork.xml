@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>Stork</defName>
-		<label>Stork</label>
+		<defName>AEXP_Stork</defName>
+		<label>stork</label>
 		<description>Thing that brings babies</description>
 		<statBases>
 			<MoveSpeed>2.1</MoveSpeed>
@@ -95,49 +95,49 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Stork</defName>
-		<label>Stork</label>
-		<labelMale>BoyStork</labelMale>
-		<labelFemale>GirlStork</labelFemale>
-		<race>Stork</race>
+		<defName>AEXP_Stork</defName>
+		<label>stork</label>
+		<labelMale>boyStork</labelMale>
+		<labelFemale>girlStork</labelFemale>
+		<race>AEXP_Stork</race>
 		<combatPower>30</combatPower>
 		<ecoSystemWeight>0.30</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<label>storkling</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>
+					<texPath>Things/Pawn/Stork/Stork</texPath>
 					<drawSize>0.45</drawSize>
 					<color>(223,219,108)</color>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Dessicated_Stork</texPath>
 					<drawSize>0.45</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<labelMale>storkeral</labelMale>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Stork</texPath>
 					<drawSize>0.75</drawSize>
 					<color>(200,150,85)</color>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Stork</texPath>
 					<drawSize>0.73</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Dessicated_Stork</texPath>
 					<drawSize>0.75</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Dessicated_Stork</texPath>
 					<drawSize>0.73</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Stork</texPath>
 					<drawSize>0.87</drawSize>
 					<color>(200,150,85)</color>
 					<shadowData>
@@ -146,15 +146,15 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Stork</texPath>
 					<drawSize>0.85</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Dessicated_Stork</texPath>
 					<drawSize>0.87</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+					<texPath>Things/Pawn/Animal/Stork/Dessicated_Stork</texPath>
 					<drawSize>0.85</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>
